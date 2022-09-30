@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+
+.werkvorm {
+  background: #f9f8f8;
+  height: 15em;
+  width: 25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0dedc;
+}
