@@ -10,23 +10,32 @@ header {
 
 .header-totaal {
   display: flex;
+  justify-content: space-between;
 }
 
-.logo {
-  scale: 125%;
-  position: absolute;
-  margin: auto 0;
-}
 .header-links {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 50vw;
 }
 
 .header-rechts {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 50vw;
+}
+
+.logo {
+  scale: 125%;
+  position: absolute;
+  margin: auto 0;
+  padding: 1em 0em 0em 1em;
+}
+
+.header-text {
+  padding: 1em 1em 0em 1em;
 }
 
 .profile {
