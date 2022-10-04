@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+}
+
+header {
+  z-index: 999;
+  height: 5em;
+  border-bottom: solid 1px #e0dedc;
+}
+
+.header-totaal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50vw;
+}
+
+.header-rechts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50vw;
+}
+
+.logo {
+  scale: 125%;
+  position: absolute;
+  margin: auto 0;
+  padding: 1em 0em 0em 1em;
+}
+
+.header-text {
+  padding: 1em 1em 0em 1em;
+}
+
+.profile {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.sectie-a {
+  display: flex;
+}
+
+.werkvormen {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 5em;
+}
+
+@media screen and (max-width: 1050px) {
+  .werkvormen {
+    display: grid;
+    grid-auto-flow: row;
+    margin: 0 auto;
+    gap: 5em;
+  }
+}
+
+.werkvorm {
+  background: #f9f8f8;
+  height: 15em;
+  width: 25em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0dedc;
+  align-self: center;
+}
