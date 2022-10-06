@@ -43,6 +43,29 @@ header {
   width: 2.5em;
 }
 
+.zoekbalk {
+  z-index: 999;
+  height: 5em;
+  border-bottom: solid 1px #e0dedc;
+  width: 100vw;
+  display: flex;
+  color: #c0beb9;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.vergrootglas {
+  height: 2.5em;
+  width: 2.5em;
+  color: black;
+  padding-right: 1em;
+}
+
+.text-zoekbalk {
+  border-style: none;
+  width: 20em;
+}
+
 .sectie-a {
   display: flex;
 }

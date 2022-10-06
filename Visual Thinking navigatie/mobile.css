@@ -2,15 +2,17 @@ body {
   margin: 0px;
 }
 
-header {
+.header {
   z-index: 999;
   height: 5em;
   border-bottom: solid 1px #e0dedc;
+  width: 100vw;
 }
 
 .header-totaal {
   display: flex;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .header-links {
@@ -39,6 +41,19 @@ header {
 }
 
 .profile {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.zoekbalk {
+  z-index: 999;
+  height: 5em;
+  border-bottom: solid 1px #e0dedc;
+  width: 100vw;
+  display: flex;
+}
+
+.vergrootglas {
   height: 2.5em;
   width: 2.5em;
 }
