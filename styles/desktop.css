@@ -37,6 +37,7 @@ header {
 
 .header-text {
   padding: 1em 1em 0em 1em;
+  font-weight: bold;
 }
 
 .profile {
