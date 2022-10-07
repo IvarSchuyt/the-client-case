@@ -6,7 +6,7 @@ header {
   z-index: 999;
   height: 5em;
   border-bottom: solid 1px #e0dedc;
-  width: 100vw;
+  width: 100%;
 }
 
 .header-totaal {
@@ -46,6 +46,8 @@ header {
 
 .subheader {
   border-style: none;
+  width: 100%;
+  height: 4em;
 }
 
 .zoekbalk {
@@ -70,6 +72,10 @@ header {
   width: 20em;
 }
 
+.text-zoekbalk:focus-visible {
+  outline-style: none;
+}
+
 .sectie-a {
   display: flex;
 }
@@ -80,6 +86,7 @@ header {
   grid-template: repeat(4, 1fr) / repeat(2, 1fr);
   margin: 0 auto;
   gap: 5em;
+  padding: 5em;
 }
 
 @media screen and (max-width: 1050px) {
