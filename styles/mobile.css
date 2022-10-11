@@ -72,13 +72,22 @@ header {
 .text-zoekbalk {
   border-style: none;
   width: 20em;
+  font-family: yrsa, serif;
+  font-size: 18px;
 }
 
-.dropdown {
-  position: absolute;
+.dropdown-totaal {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em 0em 0em 7em;
+  gap: 2em;
+}
+
+.dropdown-categoriën,
+.dropdown-duur,
+.dropdown-niveau {
   display: inline-block;
-  padding-left: 7em;
-  padding-top: 1em;
 }
 
 button {
@@ -93,7 +102,9 @@ button {
   -webkit-text-fill-color: black;
 }
 
-.dropdown-content {
+.dropdown-content-categoriën,
+.dropdown-content-duur,
+.dropdown-content-niveau {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -103,7 +114,9 @@ button {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-categoriën:hover .dropdown-content-categoriën,
+.dropdown-duur:hover .dropdown-content-duur,
+.dropdown-niveau:hover .dropdown-content-niveau {
   display: block;
 }
 
