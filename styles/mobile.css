@@ -90,6 +90,7 @@ button {
   background: transparent;
   border-style: none;
   font-size: 16px;
+  color: black;
 }
 
 .dropdown-content {
