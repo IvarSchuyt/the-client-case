@@ -37,6 +37,8 @@ header {
 
 .header-text {
   padding: 1em 1em 0em 1em;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
 }
 
 .profile {
@@ -81,6 +83,7 @@ header {
 
 span {
   font-weight: bold;
+  font-family: "Secular One", sans-serif;
 }
 
 .dropdown-content {
@@ -104,6 +107,7 @@ ul {
 li {
   list-style-type: none;
   padding: 0.5em 0em 0.5em 0em;
+  font-family: yrsa, serif;
 }
 
 li:hover {

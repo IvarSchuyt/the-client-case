@@ -38,6 +38,11 @@ header {
 .header-text {
   padding: 1em 1em 0em 1em;
   font-weight: bold;
+  font-family: "Secular One", sans-serif;
+}
+
+.header-text:hover {
+  text-decoration: underline 1px black;
 }
 
 .profile {
@@ -71,6 +76,8 @@ header {
 .text-zoekbalk {
   border-style: none;
   width: 20em;
+  font-family: yrsa, serif;
+  font-size: 18px;
 }
 
 .text-zoekbalk:focus-visible {
@@ -81,11 +88,12 @@ header {
   position: absolute;
   display: inline-block;
   padding-left: 7em;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 span {
   font-weight: bold;
+  font-family: "Secular One", sans-serif;
 }
 
 .dropdown-content {
@@ -109,6 +117,7 @@ ul {
 li {
   list-style-type: none;
   padding: 0.5em 0em 0.5em 0em;
+  font-family: yrsa, serif;
 }
 
 li:hover {
