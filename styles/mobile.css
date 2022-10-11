@@ -90,7 +90,7 @@ button {
   background: transparent;
   border-style: none;
   font-size: 16px;
-  color: black;
+  -webkit-text-fill-color: black;
 }
 
 .dropdown-content {
