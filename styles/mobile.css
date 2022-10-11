@@ -81,6 +81,12 @@ header {
   padding-top: 1em;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 button {
   font-weight: bold;
   font-family: "Secular One", sans-serif;
