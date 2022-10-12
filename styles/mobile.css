@@ -164,6 +164,12 @@ li:hover {
 .img-werkvorm {
   height: 15em;
   width: 25em;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
+  transition-timing-function: cubic-bezier(0.42, 0, 0.72, 0.995); /* custom */
+}
+
+.img-werkvorm:hover {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
 }
