@@ -164,4 +164,6 @@ li:hover {
 .img-werkvorm {
   height: 15em;
   width: 25em;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
 }
