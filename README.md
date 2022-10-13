@@ -2,6 +2,8 @@
 De navigatie die ik heb gemaakt heeft een overzichtelijke opbouw. De visuele werkvormen staan in het middenpunt van de pagina, zodat de gebruikers meteen kunnen beginnen met verkennen. Voor docenten die snel een passende werkvorm nodig hebben voor hun les is er een filter. Je kan kiezen tussen de categorie, duur en het niveau van een werkvorm. 
 <br>
 ![readme-foto](https://user-images.githubusercontent.com/112855849/195568670-b3c618ee-3982-4a92-a4f4-836c9079ac7e.png)
+![readme-foto-dropdown](https://user-images.githubusercontent.com/112855849/195570061-83de83fc-2bc3-4237-b547-4457f3e13be1.png)
+
 
 ### Responsive
 Er is ook gedacht aan mobiele gebruikers. Wanneer een kleiner device gebruikt wordt, veranderd de site van twee kolommen naar een enkele kolom.
