@@ -4,6 +4,6 @@ De navigatie die ik heb gemaakt heeft een overzichtelijke opbouw. De visuele wer
 ![readme-foto](https://user-images.githubusercontent.com/112855849/195568670-b3c618ee-3982-4a92-a4f4-836c9079ac7e.png)
 
 ### Responsive
-Er is ook gedacht aan mobiele gebruikers. Wanneer een klein device gebruikt wordt, veranderd de site van twee kolommen naar een enkele kolom.
+Er is ook gedacht aan mobiele gebruikers. Wanneer een kleiner device gebruikt wordt, veranderd de site van twee kolommen naar een enkele kolom.
 <br>
 ![readme-foto-responsive](https://user-images.githubusercontent.com/112855849/195565293-a014df68-7580-496c-b9b1-f86987d1e2f4.png)
