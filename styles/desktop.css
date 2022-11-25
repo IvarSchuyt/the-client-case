@@ -125,11 +125,11 @@ button {
   z-index: 1;
 }
 
-.dropdown-categoriën:hover .dropdown-content-categoriën,
+/* .dropdown-categoriën:hover .dropdown-content-categoriën,
 .dropdown-duur:hover .dropdown-content-duur,
 .dropdown-niveau:hover .dropdown-content-niveau {
   display: block;
-}
+} */
 
 ul {
   padding-left: 1em;
